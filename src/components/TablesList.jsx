@@ -26,7 +26,7 @@ const QRCodeGenerator = ({ link }) => {
           key={i}
           className="p-4 mb-2 bg-white border border-gray-200 rounded-lg shadow"
         >
-          <h1 className="font-bold uppercase mb-1">{table} </h1>
+          <h1 className="font-bold uppercase mb-1 text-lg">{table} </h1>
 
           <QRCode
             id={`qrcode-${link}-${table}`}
